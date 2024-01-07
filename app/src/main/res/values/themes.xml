@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WhatsappClone" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/purple500</item>
+        <item name="colorPrimaryDark">@color/purple700</item>
+        <item name="colorAccent">@color/teal200</item>
+    </style>
+
+    <style name="Theme.WhatsappClone" parent="Base.Theme.WhatsappClone" />
+</resources>
