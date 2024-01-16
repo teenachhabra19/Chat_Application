@@ -212,12 +212,12 @@ class ChatActivity : AppCompatActivity() {
         getInbox(mCurrentId,friendId).setValue(inboxMap).addOnSuccessListener {
             getInbox(friendId,mCurrentId).addListenerForSingleValueEvent(object:ValueEventListener{
                 override fun onDataChange(snapshot: DataSnapshot) {
-                  val value=snapshot.getValue(Inbox::class.java)
-                    inboxMap.apply{
-                        from=message.senderId
-                        name=currentUser.name
-                        image=currentUser.thumbImage
-                        count=1
+                    val value = snapshot.getValue(Inbox::class.java)
+                    inboxMap.apply {
+                        from = message.senderId
+                        name = currentUser.name
+                        image = currentUser.thumbImage
+                        count = 1
                     }
                     value?.let {
                         if(it.from==message.senderId){

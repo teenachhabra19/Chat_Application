@@ -32,7 +32,7 @@ import java.util.concurrent.TimeUnit
 const val PHONE_NUMBER = "phoneNumber"
 
 class OtpActivity : AppCompatActivity(), View.OnClickListener {
-    lateinit var callbacks: PhoneAuthProvider.OnVerificationStateChangedCallbacks
+    lateinit var callbacks: PhoneAuthProvider.OnVerificationStateChangedCallbacks //it is the interface that is used to handle different states of verification process
     var phoneNumber: String? = null
     lateinit var verifyTv: TextView
     lateinit var waitingTv: TextView
