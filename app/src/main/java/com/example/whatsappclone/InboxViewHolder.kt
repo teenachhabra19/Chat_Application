@@ -25,5 +25,7 @@ class InboxViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
                 onClick.invoke(item.name, item.image, item.from)
             }
         }
+        //done
+        //project
     }
 }
