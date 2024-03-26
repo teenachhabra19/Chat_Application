@@ -1,6 +1,5 @@
 
-Chat Application
-Description:
+Chat Application:
 Sophisticated Chat Application: Developed a modern chat application using Kotlin, providing users with a seamless communication experience.
 Firebase Integration: Leveraged Firestore and Realtime Database from Firebase for efficient data management, ensuring real-time updates and synchronization across devices.
 Secure User Authentication: Integrated Firebase Authentication to enforce secure user access, ensuring data privacy and authentication integrity.
